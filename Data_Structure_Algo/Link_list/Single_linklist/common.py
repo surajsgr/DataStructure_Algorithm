@@ -143,24 +143,24 @@ class Linklist():
 
 
 
-
-firstnode=Node("john")
-secondnode=Node("Mary")
-thirdnode=Node("Tom")
-begining_node=Node("Rock")
-last_node=Node("Ryan")
-third_node=Node("Sam")
-
-link=Linklist()
-
-link.insert(firstnode)
-link.insert(secondnode)
-link.insert(thirdnode)
-link.insert_at_begining(begining_node)
-link.insert_at_end(last_node)
-link.insert_at_pos(3,third_node)
-# # link.delete_at_begin()
-# # link.delete_at_end()
-# link.delete_at_pos(4)
-link.print_data()
-print(link.length_linklist())
+# #
+# firstnode=Node("john")
+# # secondnode=Node("Mary")
+# # thirdnode=Node("Tom")
+# # begining_node=Node("Rock")
+# # last_node=Node("Ryan")
+# # third_node=Node("Sam")
+# #
+# link=Linklist()
+# #
+# # link.insert(firstnode)
+# # link.insert(secondnode)
+# # link.insert(thirdnode)
+# # link.insert_at_begining(begining_node)
+# link.insert_at_end(firstnode)
+# # link.insert_at_pos(3,third_node)
+# # # # link.delete_at_begin()
+# # # # link.delete_at_end()
+# # # link.delete_at_pos(4)
+# link.print_data()
+# print(link.length_linklist())
